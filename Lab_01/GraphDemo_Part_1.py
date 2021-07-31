@@ -2,6 +2,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+# Part one : This part more focus basics of Graph creating and drawing
 
 #Create a Graph 
 
