@@ -1,15 +1,15 @@
-# SocialNetLab
+## SocialNetLab
 
-Social Network Lab
+Social Network Lab that show the demonstration of graph theory
 
-# Lab 01 [Graph Manipulation Basics]
+## Lab 01 [Graph Manipulation Basics]
 
 ### Required Modules :
 
 - networkx
 - matplotlib
 
-## Source Code Have Three Parts :
+### Source Code Have Three Parts :
 
 - Part One : This part more on focus basics of Graph creating and drawing
 - Part Two : This part more focus on the Drawing part of the Graph
