@@ -17,6 +17,16 @@ edge = ("b", "c")                # adding via tuple
 G.add_edge(*edge) 
 G.add_edges_from([("c","e"), ("d","e"),("a","e")])        #adding multiple edges
 
+#View Graph Information 
+print("####### ############################### #######")
+print("Generic Information about the Graph", "\n")
+print("Number of Nodes : ")
+print("Method 1 : ", G.number_of_nodes() )
+print("Method 2 : ",len(G))
+print("Method 3 : ",G.order())
+print("Number of Edges : ")
+print(G.number_of_edges(), '\n')
+print("####### ############################### #######", '\n')
 
 
 
