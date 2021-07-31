@@ -24,7 +24,8 @@ G.add_edges_from([("c","e"), ("d","e"),("a","e")])        #adding multiple edges
 #Option for drawing the graph
 options = {
     'node_color' : 'red', 
-    'node_size' : 100,
+    'node_size' : 300,
+    'width': 2,
     'edge_color' : 'blue',
     'with_labels' : True , 
     'font_weight' : 'bold'
