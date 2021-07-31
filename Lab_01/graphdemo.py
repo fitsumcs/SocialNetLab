@@ -14,7 +14,11 @@ print("####### ############################### #######")
 print("Generic Information about the Graph", "\n")
 print(G , '\n')
 print("####### ############################### #######", '\n')
- 
 
+#View Graph Information 
+print("####### ############################### #######")
+print("Generic Information about the Graph via Method", "\n")
+print(nx.info(G) , '\n')
+print("####### ############################### #######", '\n')
 
  
