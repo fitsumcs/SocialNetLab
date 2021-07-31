@@ -7,7 +7,14 @@ import matplotlib.pyplot as plt
 
 G = nx.Graph()                #Undirected Simple Graph 
 G1 = nx.DiGraph()             #Directed Simple Graph 
+
+
+#View Graph Information 
+print("####### ############################### #######")
+print("Generic Information about the Graph", "\n")
+print(G , '\n')
+print("####### ############################### #######", '\n')
  
- 
+
 
  
