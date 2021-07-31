@@ -46,3 +46,16 @@ print("Neighbors of A: ")
 print(list(G.neighbors("a")))
 print("####### ############################### #######", '\n')
 
+#View Node Degree
+print("####### ############################### #######")
+print("View Degree of Nodes", "\n")
+print("Degree of A: ")
+print(G.degree("a"))
+print("Degree of b, c: ")
+print(G.degree(["b","c"]))
+print("Degree of each node ")
+print(G.degree())
+
+
+print("####### ############################### #######", '\n')
+
