@@ -28,5 +28,16 @@ print("Number of Edges : ")
 print(G.number_of_edges(), '\n')
 print("####### ############################### #######", '\n')
 
+#View Presense of Node and Edge 
+print("####### ############################### #######")
+print("View Presense of Node and Edge ", "\n")
+print("Presence of Nodes : ")
+print("Dose Node a Exist ?  : ", G.has_node("a") )
+print("Dose Node 1 Exist ?  : ", G.has_node(1) )
+print("Presence of Edges : ")
+print("Is there edge b/n a and b ?  : ", G.has_edge("a", "b") )
+print("Is there edge b/n d and c ?  : ", G.has_edge("d", "c") )
+print("####### ############################### #######", '\n')
+
 
 
