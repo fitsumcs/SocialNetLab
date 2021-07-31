@@ -21,7 +21,7 @@ print("Generic Information about the Graph via Method", "\n")
 print(nx.info(G) , '\n')
 print("####### ############################### #######", '\n')
 
-#View Graph nodes and edge 
+#View Graph nodes and edge information
 print("####### ############################### #######")
 print("Generic Information about the Graph nodes and edges ", "\n")
 print("Graph Nodes : ")
