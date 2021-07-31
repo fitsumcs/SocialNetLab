@@ -69,3 +69,18 @@ print("Graph Edges : ")
 print(G.edges())
 print("####### ############################### #######", '\n')
  
+
+#View Graph by drawing with matplotlib 
+print("####### ############################### #######")
+
+# Draw the Graph 
+nx.draw(G)
+
+# Plot the Graph
+plt.show()
+
+#save in file [The file will be located on the same path as the python file ]
+plt.savefig("simplegraph.png")
+
+
+print("####### ############################### #######", '\n')
