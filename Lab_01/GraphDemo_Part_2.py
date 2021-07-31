@@ -21,17 +21,31 @@ G.add_edges_from([("c","e"), ("d","e"),("a","e")])        #adding multiple edges
 # Draw the Graph with label and font  [Option One ]
 #nx.draw(G , with_labels=True, font_weight='bold')
 
-#Option two 
+#Option for drawing the graph
 options = {
     'node_color' : 'red', 
-    'node_size' : 50,
+    'node_size' : 100,
     'edge_color' : 'blue',
     'with_labels' : True , 
     'font_weight' : 'bold'
     }
 
-# draw with options 
-nx.draw(G,**options)
+# Draw with options 
+#nx.draw(G,**options)
+
+# Draw Circular 
+nx.draw_circular(G, **options) 
+
+# other types  [You can only one type at a time ]
+
+#nx. draw_random(G, **options)        Draw the graph G with a random layout.
+#nx.draw_random(G, **options)         Draw the graph G with a random layout.
+#nx.draw_spectral(G, **options)       Draw the graph G with a spectral layout.
+#nx.draw_spring(G, **options)         Draw the graph G with a spring layout.
+#nx.draw_shell(G, **options)          Draw the graph G with a shell layout.
+
+
+
 
 # Add Title 
 plt.title('Graph Demo', size=15)
