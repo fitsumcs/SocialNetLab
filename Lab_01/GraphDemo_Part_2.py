@@ -31,13 +31,10 @@ options = {
     }
 
 # Draw with options 
-#nx.draw(G,**options)
-
-# Draw Circular 
-nx.draw_circular(G, **options) 
+nx.draw(G,**options)
 
 # other types  [You can only one type at a time ]
-
+#nx.draw_circular(G, **kwargs)        Draw the graph G with a circular layout.
 #nx. draw_random(G, **options)        Draw the graph G with a random layout.
 #nx.draw_random(G, **options)         Draw the graph G with a random layout.
 #nx.draw_spectral(G, **options)       Draw the graph G with a spectral layout.
