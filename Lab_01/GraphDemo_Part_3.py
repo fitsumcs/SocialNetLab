@@ -56,6 +56,16 @@ print(G.degree(["b","c"]))
 print("Degree of each node ")
 print(G.degree())
 
+print("####### ############################### #######", '\n')
+
+#Shortest Path and Diameter
+print("####### ############################### #######")
+print("View Shortest Path", "\n")
+print("Shorterst path from a to d: ")
+print(nx.shortest_path(G,"a","d"))
+print("Diameter of G : ")
+print(nx.diameter(G))
+
 
 print("####### ############################### #######", '\n')
 
