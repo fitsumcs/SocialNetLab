@@ -1,6 +1,6 @@
 ## SocialNetLab
 
-Social Network Lab that show the demonstration of graph theory
+This repo is used for the demonstration graph theory on Social Network Lab
 
 ## Lab 01 [Graph Manipulation Basics]
 
