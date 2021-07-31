@@ -18,8 +18,20 @@ G.add_edge(*edge)
 G.add_edges_from([("c","e"), ("d","e"),("a","e")])        #adding multiple edges
 
 
-# Draw the Graph with label and font 
-nx.draw(G , with_labels=True, font_weight='bold')
+# Draw the Graph with label and font  [Option One ]
+#nx.draw(G , with_labels=True, font_weight='bold')
+
+#Option two 
+options = {
+    'node_color' : 'red', 
+    'node_size' : 50,
+    'edge_color' : 'blue',
+    'with_labels' : True , 
+    'font_weight' : 'bold'
+    }
+
+# draw with options 
+nx.draw(G,**options)
 
 # Add Title 
 plt.title('Graph Demo', size=15)
