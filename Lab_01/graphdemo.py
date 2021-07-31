@@ -34,4 +34,21 @@ print("Graph Edge Type : ")
 print(type(G.edges()))
 print("####### ############################### #######", '\n')
 
+
+#Addind Nodes 
+print("####### ############################### #######")
+print("Addins Nodes and Viewing the info ", "\n")
+
+# adding a single Node 
+
+G.add_node("a")
+
+# adding multiple nodes 
+G.add_nodes_from(["b","c", "d","e"])
+
+print("Graph Nodes : ")
+print(G.nodes())
+print("####### ############################### #######", '\n')
+
+
  
