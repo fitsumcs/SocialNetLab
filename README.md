@@ -11,6 +11,6 @@ Social Network Lab
 
 ## Source Code Have Three Parts :
 
-- Part One : This part more focus basics of Graph creating and drawing
+- Part One : This part more on focus basics of Graph creating and drawing
 - Part Two : This part more focus on the Drawing part of the Graph
 - Part Three : This part more focus on the Analyzing the Graph
