@@ -50,5 +50,22 @@ print("Graph Nodes : ")
 print(G.nodes())
 print("####### ############################### #######", '\n')
 
+#Addind Edges
+print("####### ############################### #######")
+print("Addins Nodes and Viewing the info ", "\n")
 
+# adding a single Edge
+
+G.add_edge("a","b")
+
+# adding via tuple 
+edge = ("b", "c")
+G.add_edge(*edge)
+
+#adding multiple edges 
+G.add_edges_from([("c","e"), ("d","e"),("a","e")])
+
+print("Graph Edges : ")
+print(G.edges())
+print("####### ############################### #######", '\n')
  
