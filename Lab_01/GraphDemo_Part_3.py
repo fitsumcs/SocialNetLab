@@ -39,5 +39,10 @@ print("Is there edge b/n a and b ?  : ", G.has_edge("a", "b") )
 print("Is there edge b/n d and c ?  : ", G.has_edge("d", "c") )
 print("####### ############################### #######", '\n')
 
-
+#View Neighbors [The method return need to be converted to list]
+print("####### ############################### #######")
+print("View Neighbors of Nodes", "\n")
+print("Neighbors of A: ")
+print(list(G.neighbors("a")))
+print("####### ############################### #######", '\n')
 
