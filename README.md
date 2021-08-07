@@ -15,7 +15,7 @@ This repo is used for the demonstration graph theory on Social Network Lab
 - Part Two : This part more focus on the Drawing part of the Graph
 - Part Three : This part more focus on the Analyzing the Graph
 
-## Lab 02 [Graph Manipulation Basics with Jupyter Notebook]
+## Lab 02 [Graph Manipulation with Jupyter Notebook]
 
 ### Required Modules :
 
