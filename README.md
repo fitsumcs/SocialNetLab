@@ -25,3 +25,15 @@ This repo is used for the demonstration graph theory on Social Network Lab
 ### Source Code Have One Part :
 
 - Part One : Working with graph on Jupyter Notebook
+
+## Lab 03 [Graph Analysis Using Gephi]
+
+### Required Modules :
+
+- [Gephi](https://gephi.org/)
+- Java 8
+
+### The Folder Have various Dataset :
+
+- DataSet : Sc-Fi Books , Syria from news and few more data
+- Resource : [Link 1](https://mdl.library.utoronto.ca/technology/tutorials/visualizing-network-dataset-using-gephi), [Link 2](https://studentwork.prattsi.org/infovis/labs/exploring-network-data-with-gephi/), [Link 3](http://www.casos.cs.cmu.edu/tools/datasets/internal/index.php#startup)
